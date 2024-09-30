@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  overflow: hidden; /* make sure to add this later */
+  overflow: hidden; 
 }
 
 #root {
@@ -10,10 +10,9 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh; 
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  
 }
 .btn {
   background-color: #ad8383;
