@@ -12,8 +12,35 @@ html, body {
   height: 100vh; 
   margin: 0 auto;
   text-align: center;
+  background-image: url('./assets/mushroom.png'); /*this picture come from the assets folder, try to find this picture! and maybe change it to a different one :D*/
+  background-size: cover;
+  background-position: center;
+
   
 }
 .btn {
-  background-color: #ad8383;
+  background-color: #1ba0a2;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.select {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Text color */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 10px 15px; /* Padding to make it look nice */
+  appearance: none; /* Remove default arrow styles */
+  font-size: 16px;
+  max-width: 300px; /* Set a max width if needed */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a pointer cursor */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+  margin-bottom: 20px; /* Add some space at the bottom */
 }
