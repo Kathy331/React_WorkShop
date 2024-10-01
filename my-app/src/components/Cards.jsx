@@ -1,4 +1,5 @@
 import cardInfo from './cardInfo.json'; 
+import './Cards.css';
 
 function Card({ cardName }) {
   const selectedCard = cardInfo.cards.find(card => card.cardName === cardName);
