@@ -1,0 +1,47 @@
+/* The card-flip container sets up the perspective for the 3D effect */
+.card-flip {
+  perspective: 1000px; /* The distance from the viewer to the object, giving the 3D illusion */
+}
+
+/* The inner container for both the front and back of the card */
+.card-inner {
+  position: relative; /* Ensures the front and back card are stacked */
+  width: 200px; /* Width of the card */
+  height: 300px; /* Height of the card */
+  transition: transform 0.6s; /* Smooth animation for flipping */
+  transform-style: preserve-3d; /* Ensures both front and back are displayed in 3D space */
+}
+
+/* When hovering over the card, this triggers the card to flip by rotating 180 degrees */
+.card-flip:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate around the Y-axis to flip the card */
+}
+
+/* Common styles for both the front and back of the card */
+.card-front, .card-back {
+  position: absolute; /* Both front and back will overlap */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  backface-visibility: hidden; /* Hides the back of the card when it's not facing the viewer */
+  display: flex; /* Centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Styling for the front of the card */
+.card-front {
+  background-color: rgb(234, 226, 226); /* White background for the front */
+}
+
+/* Styling for the back of the card */
+.card-back {
+  background-color: #333; /* Dark background for the back */
+  transform: rotateY(180deg); /* Rotate the back to face away by default */
+}
+
+/* Ensures the back image takes up the entire back side of the card */
+.card-back img {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Ensure the image covers the entire space without distortion */
+}

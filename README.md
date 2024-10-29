@@ -25,7 +25,7 @@ Technica 2024 React WorkShop
 <!-- GETTING STARTED -->
 ## Getting Started
 
-All Instructions is in the notion workshop page
+All Instructions is in the notion workshop page, Click the notion page below to get started
 * [![Notion][Notion.js]][Notion-url] 
 
 
@@ -42,6 +42,12 @@ Kathy Chen - [@Linkedin](https://www.linkedin.com/in/kathy-chen-b35b532a6/) - em
 ## Acknowledgments
 
 * [Technica 2024](https://gotechnica.org/)
+
+
+<!-- Certification -->
+## Certification
+<img src="images/certificate.png" alt="certificate" width="1000" height="800">
+
 
 
 
@@ -65,4 +71,6 @@ Kathy Chen - [@Linkedin](https://www.linkedin.com/in/kathy-chen-b35b532a6/) - em
 
 [Notion.js]:https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white
 [Notion-url]: https://stump-sunscreen-8de.notion.site/React-WorkShop-10f0e15f96ac803a965fc9e3c258f0f9
+
+
 
